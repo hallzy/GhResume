@@ -12,7 +12,8 @@
   var api = 'https://api.github.com/users/';
 
   // Get github username from url
-  var name = url('?').replace(/^\/|\/$/g, '')
+  // var name = url('?').replace(/^\/|\/$/g, '')
+  var name = hallzy
   // Default username
   if (name.length === 0)
     name = 'hit9';
